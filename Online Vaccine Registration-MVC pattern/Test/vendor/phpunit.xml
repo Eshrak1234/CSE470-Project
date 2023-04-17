@@ -1,0 +1,62 @@
+ 
+
+<?xml version="1.0" encoding= "UTF=8" ?>
+
+<phpunit bootstrap= 'vendor/autoload.php'
+    colours= "true"
+    stopOnFailure= "false">
+    <testsuites>
+        <testsuite name ="dose">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+    <testsuites>
+        <testsuite name= "insert_applications">
+            <directory>Test</directory>
+
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name= "reg">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name= "signin" >
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name= "admin_signin">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name= "data">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name= "dbconnect">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name= "index_old">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+
+    <testsuites>
+        <testsuite name= "index">
+            <directory>Test</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
